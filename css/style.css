@@ -390,7 +390,6 @@ a:hover {
     opacity: 0;
     transition: 400ms;
     text-shadow: 0 0.5px 0.3px rgba(0,0,0,.1);
-    background-image: linear-gradient(to bottom, #1351a8, #162477);
 }
 
 .outline-btn:hover:after{
@@ -398,7 +397,8 @@ a:hover {
 }
 .outline-btn:hover{
     color: #ffffff;
-    background-image: linear-gradient(to bottom, #1351a8,#162477);
+    background-color: black;
+    border-radius: 20px;
 }
 .primary-bg h1, .primary-bg p {
     color: #fff;
@@ -4196,7 +4196,7 @@ a.pricing-value {
     color: #162e66;
 }
 .custom-pagination-nav ul li a.page-link:hover{
-    background: #1351a8;
+    background: green;
     color: #FFFFFF;
 }
 .custom-pagination-nav ul li.page-item:first-child .page-link,
@@ -4210,7 +4210,7 @@ a.pricing-value {
     color: #1351a8;
 }
 .custom-pagination-nav ul li.page-item.active .page-link{
-    background-color: #1351a8;
+    background-color: green;
     border-color: #1351a8;
 }
 /*blog sidebar*/
